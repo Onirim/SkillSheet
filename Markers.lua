@@ -1,7 +1,7 @@
 -- Gestion de la localisation
 local _, core = ...
 local L = core.Locales[GetLocale()] or core.Locales["enUS"]
-local version = GetAddOnMetadata("DMTools", "Version")
+local version = C_AddOns.GetAddOnMetadata("DMTools", "Version")
 
 local markerSync = false
 local colorWhite = "|cFFFFFFFF"
